@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LOGIN</title>
+<link rel="stylesheet" th:href="@{/css/loginStyle.css}">
+</head>
+<body>
+<form action="validate" method="post">
+	<label for="email">Email : </label>
+	<input type="text" name="email" placeholder="email" />
+	<br>
+	<br>
+	<label for="password">Password : </label>
+	<input type="text" name="password" placeholder="password" />
+	<br>
+	<br>
+	<input type="submit" value="Login"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+}
+form {
+  background-image: url("https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=600");
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+input[type="text"],
+input[type="password"]{
+	color: navy;
+  
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,49 @@
+* {box-sizing: border-box}
+
+body{	
+	
+	text-align: center;
+}
+
+form {
+  background-image: url("https://images.pexels.com/photos/534283/pexels-photo-534283.jpeg?auto=compress&cs=tinysrgb&w=600");
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+label {
+	color: #c40000;
+  display: block;
+  margin: 3px;
+  font-size: 20px;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+	color: navy;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  font-family: serif;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
